@@ -3,7 +3,6 @@ import React, { useEffect, useRef } from 'react';
 import DailyIframe from '@daily-co/daily-js';
 
 const VideoCall: React.FC = () => {
-  const callFrameRef = useRef<any>(null);
 
   useEffect(() => {
     const callFrame = DailyIframe.createFrame({
